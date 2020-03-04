@@ -3,7 +3,7 @@
 
 body{
   
-    background: url(../img/bg5.jpg);
+    background: url(../img/q.jpg);
     margin: 0;
     padding: 0;
    
@@ -73,7 +73,18 @@ body{
   border-radius: 20px;
 }
 
+.login-box .but{
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #1b1717;
+  background-color: #cddae0;
+  border-radius: 30px;
+  border: 2px solid #2b2b2e;
+  transform: translate(90%, 90%);
 
+}
 
 
 
