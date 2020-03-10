@@ -17,22 +17,24 @@
      <form action="guardar.php" method="post">
          
             <label for="usuario">Usuario</label> 
-            <input type="text" placeholder="usuario" name="nombre">
+            <input type="text" placeholder="usuario" name="nombre" required>
             
             <label for="email">Email</label> 
-            <input type="text" placeholder="email" name="email">
+            <input type="text" placeholder="email" name="email" required >
             
             <br>
            <button type="submit" class="but"> Gruardar</button> 
             
-            
-             
-         
+           <div class="logo">
+           <a href="index.php" > <img  src="img/a.png" width="90px" height="15%"  alt="logo" ></a> 
+          </div>
     </form>
      
  </div>
  
+ 
+     
+            
 
-    
 </body>
 </html>

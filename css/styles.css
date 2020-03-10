@@ -85,9 +85,10 @@ body{
   transform: translate(90%, 90%);
 
 }
-
-
-
+.login-box .logo{
+  
+  transform: translate(10%, 20%);
+}
 
 
 
