@@ -1,7 +1,17 @@
 <?php
 
-    $conexion= new mysqli('localhost','root','','base_persona');
-  //  $con =new mysqli($host,$user,$password,$db);
+    include("includes/db.php");
+
+    //$conexion= new mysqli('localhost','root','','base_persona');
+    //$con=new mysqli($host,$user,$password,$db);
+
+
+    //DB::query();
+    //DB::init();
+
+    //LLAMAR METODOS..-........
+    //$prueba= new DB();
+    //$prueba ->init();
 
 ?>
 
@@ -48,7 +58,8 @@
     <?php
 
         $sql="SELECT * FROM usuario";
-        $result= mysqli_query($conexion,$sql);
+        //$result= mysqli_query($con,$sql);
+        $result= DB::query($sql);
 
         while($mostrar= mysqli_fetch_array($result)){
           ?>
