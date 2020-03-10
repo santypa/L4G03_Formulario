@@ -11,6 +11,7 @@ class DB{
         static $user ="root";
         static $password=""; 
         static $db="base_persona";
+
         public static function init(){
                 echo "Iniciando base de datos";
 
@@ -20,11 +21,14 @@ class DB{
                 //conexion de la base de datos
                 $con=new mysqli(self::$host,self::$user,self::$password,self::$db);
 
-                return $con->query($sql);
+                $result= $con->query($sql); 
+                $con ->close();
+                return $result;
                
 
-
         }
+
+
 }
 
 
